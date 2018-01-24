@@ -5,8 +5,8 @@ int a;
 printf("Enter the Number");
 scanf("%d",&a);
 if(a%2==0)
-printf("The Number is EVEN");
+printf("\nThe Number is EVEN");
 else 
-printf("The Number is ODD");
+printf("\nThe Number is ODD");
 return 0;
 }
