@@ -1,16 +1,18 @@
 #include<stdio.h>
 void main()
 {
-    int n,a,d,sum=0,i;
-    printf("Enter the no.of terms ");
-    scanf("%d",&n);
-    printf("Enter the 1st term and difference");
-    scanf("%d%d",&a,&d);
-    for(i=1;i<=n;i++)
+    int a,b,d,c,i,sum=0;
+    printf("Enter n value");
+    scanf("%d",&d);
+    printf("Enter the a & b value ");
+    scanf("%d\n%d",&a,&b);
+    c=a;
+    printf("AP series");
+    for(i=0;i<d;i++)
     {
-        printf("%d",a);
-        sum=sum+a;
-        a=a+d;
+        printf("\n%d",c);
+        sum=sum+c;
+        c=c+b;
     }
-    printf("\n%d",sum);
+    printf("AP series %d",c);
 }
