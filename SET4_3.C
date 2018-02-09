@@ -24,6 +24,6 @@ count++;
 
 }
 
-printf("number of words in given string are: %d\n",count);
+printf("number of spaces in given string are: %d\n",count);
 
 }
