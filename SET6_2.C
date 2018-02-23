@@ -5,46 +5,52 @@ int a;
 scanf("%d",&a);
 switch(a)
 {
-case 1 'a==1' :
+case 1:
 {
     printf("ONE");
-}
  break;
-case 2 'a==2' :
+}
+    case 2:
 {
     printf("TWO");
-}
  break;
-case 3 'a==3' :
+}
+case 3:
 {
     printf("THREE");
-}
  break;
-case 4 'a==4' :
+}
+    case 4:
 {
     printf("FOUR");
-} break;
-case 5 'a==5' :
+ break;
+}
+    case 5:
 {
     printf("FIVE");
-} break;
-case 6 'a==6' :
+break;
+}
+    case 6:
 {
     printf("SIX");
-} break;
-case 7 'a==7' :
+break;
+}
+    case 7:
 {
     printf("SEVEN");
-} break;
-case 8 'a==8' :
+break;
+}
+    case 8:
 {
     printf("EIGHT");
-} break;
-case 9 'a==9' :
+break;
+}
+    case 9:
 {
     printf("NINE");
-} break;
-default :
+break;
+}
+    default :
 {
     printf("invalid number");
 }
